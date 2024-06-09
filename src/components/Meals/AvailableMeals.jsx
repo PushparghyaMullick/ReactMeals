@@ -12,7 +12,7 @@ const AvailableMeals = () => {
         setIsLoading(true);
         setError(null);
         try{
-            const response = await fetch('https://react-meals-http-238a7-default-rtdb.firebaseio.com/meals.json');
+            const response = await fetch('https://react-meals-http-new-default-rtdb.firebaseio.com/meals.json');
             if (!response.ok) {
                 throw new Error('Something went wrong!');
             }

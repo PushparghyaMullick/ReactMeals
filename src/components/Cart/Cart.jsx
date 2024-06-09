@@ -61,7 +61,7 @@ const Cart = props => {
         setOrderError(null);
         setOrderPlaced(false);
         try{
-            const response = await fetch('https://react-meals-http-238a7-default-rtdb.firebaseio.com/orders.json', {
+            const response = await fetch('https://react-meals-http-new-default-rtdb.firebaseio.com/orders.json', {
                 method: 'POST',
                 body: JSON.stringify({
                     user: userData,
